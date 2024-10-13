@@ -10,16 +10,10 @@ import datetime
 import os
 
 '''
-#####################
-##       NOTA      ##
-#####################
-
-¡Hola Marta! Los comentarios que añada yo los escribiré en castellano para distinguirlos de los orginales.
 
 En este script hay dos simulaciones, la primera es para la función de onda sin campo magnético y la segunda es para la función de onda con campo magnético.
 Se dan Nt = 1e6 pasos temporales para simular 0.1s. He calculado que guardando un frame por cada 1000 pasos podemos hacer un video de 20 segundos de 50fps,
-que se supone que es buena calidad. Luego seguramente lo haremos de unos 5 segundos, pero así tenemos frames de sobra. Guardar 1000 archivos en vez de 1000000 
-creo que es una buena idea.
+que se supone que es buena calidad. 
 
 '''
 
@@ -231,7 +225,7 @@ def compute_psi(psi,C1_x,C1_y,C2_x,C2_y,C3):
 
 
 
-print("Ahora empieza lo chungo: las simulaciones largas ---------------------------------------")
+print("Ahora empiezan las simulaciones largas ---------------------------------------")
 
 # Comienzo
 t_start = time()
